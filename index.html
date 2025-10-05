@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montes Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <a href="#home" class="logo-link"><img src="images\montes-bakery-logo-2.png" alt="Montes Bakery" class="logo-image"></a>
+        <nav>
+            <!-- <a href="#menu">Menu</a>
+            <a href="#promo">Promos</a>
+            <a href="#about">About Us</a> -->
+            <!-- <a href="#contact">Contact</a> -->
+        </nav>
+    </header>
+
+    <div class="video-section">
+        <video controls loop poster="images/montes-bakery-video-thumb.jpg" width="100%" style="max-width:700px; border-radius:12px; background:#e0c097; display:block; margin: 0 auto;">
+            <source src="images\cookie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="intro-paragraph">
+        <p>
+            Welcome to <b>Montes Bakery!</b> We are a family-owned bakery in Antipolo City, dedicated to serving fresh, delicious breads, cakes, and pastries made with love and the finest ingredients. Experience the warmth of home in every bite!
+        </p>
+    </div>
+
+    <main>
+        <section id="promo" class="promo-section">
+            <h2>SPECIAL PROMO</h2>
+            <div class="promo">
+                <strong>Buy 2 Get 1 Free:</strong> On all cupcakes every Friday!
+            </div>
+            <div class="promo">
+                <strong>Family Bundle:</strong> 1 loaf, 6 cookies, and 4 cupcakes for only P849!
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>OUR MENU</h2>
+            <div class="menu-category">
+                <h3>Breads</h3>
+                <ul>
+                    <li>
+                        <img src="images\sourdough-loaf.jpg" alt="Sourdough Loaf" class="menu-item-img">
+                        <span class="item-name-desc-group">
+                            <span class="item-name">Sourdough Loaf</span>
+                            <span class="item-desc">Traditional, crusty, and tangy.</span>
+                        <span class="item-price">P189</span>
+                        </span>
+                        <button class="add-order-btn" data-item="Sourdough Loaf">Add Order</button>
+                    </li>
+                    <li>
+                        <img src="images/whole-wheat.jpg" alt="Whole Wheat Bread" class="menu-item-img">
+                        <span class="item-name-desc-group">
+                            <span class="item-name">Whole Wheat Bread</span>
+                            <span class="item-desc">Hearty and healthy, made with 100% whole grains.</span>
+                            <span class="item-price">P229</span>
+                        </span>
+                        <button class="add-order-btn" data-item="Whole Wheat Bread">Add Order</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Cakes & Cupcakes</h3>
+                <ul>
+                    <li>
+                        <img src="images/chocolate-cupcake.jpg" alt="Chocolate Cupcake" class="menu-item-img">
+                        <span class="item-name-desc-group">
+                            <span class="item-name">Chocolate Cupcake</span>
+                            <span class="item-desc">Rich chocolate cake with creamy frosting.</span>
+                            <span class="item-price">P99</span>
+                        </span>
+                        <button class="add-order-btn" data-item="Chocolate Cupcake">Add Order</button>
+                    </li>
+                    <li>
+                        <img src="images/carrot-cake.jpg" alt="Carrot Cake Slice" class="menu-item-img">
+                        <span class="item-name-desc-group">
+                            <span class="item-name">Carrot Cake Slice</span>
+                            <span class="item-desc">Moist carrot cake with cream cheese icing.</span>
+                            <span class="item-price">P189</span>
+                        </span>
+                        <button class="add-order-btn" data-item="Carrot Cake Slice">Add Order</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-category">
+                <h3>Cookies</h3>
+                <ul>
+                    <li>
+                        <img src="images/chocolate-chip-cookie.jpg" alt="Chocolate Chip Cookie" class="menu-item-img">
+                        <span class="item-name-desc-group">
+                            <span class="item-name">Chocolate Chip Cookie</span>
+                            <span class="item-desc">Classic, chewy, and loaded with chocolate chips.</span>
+                            <span class="item-price">P119</span>
+                        </span>
+                        <button class="add-order-btn" data-item="Chocolate Chip Cookie">Add Order</button>
+                    </li>
+                    <li>
+                        <img src="images/oatmeal-raisin-cookie.jpg" alt="Oatmeal Raisin Cookie" class="menu-item-img">
+                        <span class="item-name-desc-group">
+                            <span class="item-name">Oatmeal Raisin Cookie</span>
+                            <span class="item-desc">Wholesome oats and sweet raisins.</span>
+                            <span class="item-price">P99</span>
+                        </span>
+                        <button class="add-order-btn" data-item="Oatmeal Raisin Cookie">Add Order</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>ABOUT US</h2>
+            <p>
+                Montes Bakery is a family-owned business dedicated to bringing fresh, delicious baked goods to our community. 
+                <br>
+                <br>
+                <strong>Mission:</strong> To bake with love and serve with joy.
+                <br>
+                <strong>Vision:</strong> To be your neighborhood's favorite bakery, known for quality and warmth.
+                <br>
+                <strong>Our Story:</strong> We blend tradition with creativity, using only the finest ingredients.
+            </p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>CONTACT US</h2>
+            <p>
+                <strong>Address:</strong> Brgy. Cupang, Antipolo City, Rizal<br>
+                <strong>Phone:</strong> 0912 345 6789<br>
+                <strong>Email:</strong> montesbakery@gmail.com<br>
+            </p>
+            <h3>Order Form</h3>
+            <form id="orderForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Precious Lara Montes" required>
+
+                <label for="email">Contact Number:</label>
+                <input type="text" id="email" name="email" placeholder="0912 345 6789" required>
+
+                <label for="item">Order Request:</label>
+                <input type="text" id="item" name="item" placeholder="Chocolate Chip Cookie, Whole Wheat Bread" required>
+
+                <label for="message">Message Request:</label>
+                <textarea id="message" name="message" placeholder="Message request here..."></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="formMessage"></div>
+
+            <div class="feedback-section">
+                <h3>Customer Feedback</h3>
+                <p>
+                    We value your thoughts! Please share your feedback to help us serve you better.
+                </p>
+                <form id="feedbackForm">
+                    <label for="feedback-name">Name:</label>
+                    <input type="text" id="feedback-name" name="feedback-name" placeholder="Precious Lara" required>
+
+                    <label for="feedback-message">Your Feedback:</label>
+                    <textarea id="feedback-message" name="feedback-message" placeholder="Write your feedback here..." required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="feedbackMessage"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Montes Bakery. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
