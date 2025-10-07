@@ -31,7 +31,6 @@ main {
     max-width: 900px;
     margin: 0rem auto 2rem auto;
     padding: 2rem;
-    /* padding-top: 100px; */
     background: #fff8f0;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(90, 60, 30, 0.08);
@@ -151,7 +150,6 @@ footer {
   height: 70px;
   width: auto;
   object-fit: contain;
-  /* margin-bottom: 10px; */
   vertical-align: middle;
   border-radius: 8px;
   cursor: pointer;
